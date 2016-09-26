@@ -179,7 +179,7 @@ PRODUCT_COPY_FILES += \
  vendor/lenovo/A7010a48/proprietary/etc/firmware/pcm_suspend_by_mp1.bin:system/etc/firmware/pcm_suspend_by_mp1.bin \
  vendor/lenovo/A7010a48/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
  vendor/lenovo/A7010a48/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
- vendor/lenovo/A7010a48/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6630 \
+ vendor/lenovo/A7010a48/proprietary/etc/firmware/WIFI_RAM_CODE_6730:system/etc/firmware/WIFI_RAM_CODE_6630 \
  vendor/lenovo/A7010a48/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
  vendor/lenovo/A7010a48/proprietary/etc/fmr/mt6630_fm_cust.cfg:system/etc/fmr/mt6630_fm_cust.cfg \
  vendor/lenovo/A7010a48/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
