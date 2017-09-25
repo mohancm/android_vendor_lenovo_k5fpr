@@ -1,4 +1,4 @@
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/app,system/app)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/app,system/app)
 
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/priv-app,system/priv-app)
 
