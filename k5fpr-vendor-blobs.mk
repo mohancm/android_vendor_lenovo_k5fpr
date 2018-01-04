@@ -1,6 +1,6 @@
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/k5fpr/app,system/app)
 
-#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/k5fpr/priv-app,system/priv-app)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/k5fpr/priv-app,system/priv-app)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/k5fpr/vendor/bin,system/vendor/bin)
 
