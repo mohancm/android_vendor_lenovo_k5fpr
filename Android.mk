@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),A7010a48)
+ifeq ($(TARGET_DEVICE),k5fpr)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhwm
@@ -24,6 +24,51 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libdpframework
 LOCAL_SRC_FILES_64 := lib64/libdpframework.so
 LOCAL_SRC_FILES_32 := lib/libdpframework.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libged
+LOCAL_SRC_FILES_64 := lib64/libged.so
+LOCAL_SRC_FILES_32 := lib/libged.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libion_mtk
+LOCAL_SRC_FILES_64 := lib64/libion_mtk.so
+LOCAL_SRC_FILES_32 := lib/libion_mtk.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvram
+LOCAL_SRC_FILES_64 := lib64/libnvram.so
+LOCAL_SRC_FILES_32 := lib/libnvram.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := librilmtk
+LOCAL_SRC_FILES_64 := lib64/librilmtk.so
+LOCAL_SRC_FILES_32 := lib/librilmtk.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mtk-ril
+LOCAL_SRC_FILES_64 := lib64/mtk-ril.so
+LOCAL_SRC_FILES_32 := lib/mtk-ril.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
